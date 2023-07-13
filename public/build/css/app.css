@@ -1,0 +1,125 @@
+.page-item .page-link {
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.actions a {
+  color: #777777;
+}
+.actions a img {
+  margin-right: 5px;
+}
+
+.action-panel {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.action-panel a {
+  margin-right: 20px;
+  color: #777777;
+}
+.action-panel a img {
+  margin-right: 5px;
+}
+.action-panel a:last-child {
+  margin-right: 0;
+}
+
+span.mb-2 {
+  display: block;
+  font-size: 14px;
+  line-height: 20.51px;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+a.btn {
+  color: #777777;
+}
+
+.show {
+  color: #777777;
+  cursor: pointer;
+}
+.show .rotated {
+  transform: rotate(180deg);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  max-width: 80%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.search img {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search input {
+  padding-left: 50px;
+}
+
+.panel-show {
+  position: relative;
+}
+.panel-show .other {
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+}
+.panel-show .other a {
+  color: #777777;
+  margin-bottom: 10px;
+  margin-right: 0;
+  cursor: pointer;
+}
+.panel-show .other a:last-child {
+  margin-bottom: 0;
+}
+.panel-show .other a.current {
+  font-weight: bold;
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+}
+.edit img {
+  margin-right: 5px;
+}
+
+.absolute-center {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 26px;
+}
+
+.select2-selection.select2-selection--single {
+  height: 38px !important;
+}
+.select2-selection.select2-selection--single .select2-selection__rendered {
+  line-height: 38px !important;
+}
+.select2-selection.select2-selection--single .select2-selection__arrow {
+  height: 36px !important;
+}

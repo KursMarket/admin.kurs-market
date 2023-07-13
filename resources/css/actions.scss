@@ -1,0 +1,29 @@
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & a{
+        color: #777777;
+        & img {
+            margin-right: 5px;
+        }
+    }
+}
+
+.action-panel{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & a{
+        margin-right: 20px;
+        color: #777777;
+        & img{
+            margin-right: 5px;
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
